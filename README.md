@@ -5,7 +5,7 @@ This Voting System is a blockchain-based application designed to ensure secure a
 ## Getting Started
 Follow these instructions to set up and run the project on your local machine for development and testing purposes.
 
-Prerequisites
+### Prerequisites
 Ensure you have Node.js installed on your machine. The project requires Node.js v12.x or later.
 
 ```bash
