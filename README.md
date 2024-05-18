@@ -61,3 +61,6 @@ This command will start the server for your frontend application, facilitating i
 - test/: Tests for the smart contracts.
 - app.js: The main file for the frontend application (if applicable).
 
+## Project Members
+
+- [https://github.com/MihaiMilitaru] Militaru Mihai-Alexandru
