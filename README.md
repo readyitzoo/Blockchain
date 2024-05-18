@@ -64,3 +64,6 @@ This command will start the server for your frontend application, facilitating i
 ## Project Members
 
 - [Militaru Mihai-Alexandru](https://github.com/MihaiMilitaru/)
+- [Dilirici Mihai](https://github.com/readyitzoo)
+
+  
