@@ -52,7 +52,7 @@ button {
     padding: 16px 32px; /* More padding for a better click area */
     /* padding-left: 30px; */
     /* padding-right: 30px; */
-    background-color: #007BFF; /* Bootstrap blue for visibility */
+    background-color: #6652e3; /* Bootstrap blue for visibility */
     color: white;
     border: none;
     border-radius: 5px; /* Rounded borders for modern look */
@@ -60,6 +60,10 @@ button {
 
 button:hover {
     background-color: #0056b3; /* Darker shade on hover for interactivity */
+    cursor: pointer;
+}
+#vote:hover{
+    cursor: pointer;
 }
 
 input[type="text"], input[type="number"], select {

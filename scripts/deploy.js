@@ -6,7 +6,7 @@ async function main() {
     console.log("Deploying contracts with the account:", deployer.address);
 
     const VotingSystem = await ethers.getContractFactory("VotingSystem");
-    const votingSystem = await VotingSystem.deploy(["BVB", "RMA", "FCB", "MCI"], 90);
+    const votingSystem = await VotingSystem.deploy(["Vali Spaidar", "Som Andrei", "Antonio Velcu", "Bahoi", "Vasile Mogosu", "Adrian Elicopter de Lupta"], 90);
 
     await votingSystem.deployed();
 
