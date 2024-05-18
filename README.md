@@ -63,4 +63,4 @@ This command will start the server for your frontend application, facilitating i
 
 ## Project Members
 
-- [Militaru Mihai-Alexandru] https://github.com/MihaiMilitaru
+- <a href="https://readme.com](https://github.com/MihaiMilitaru/" target="_blank">Militaru Mihai-Alexandru</a>
