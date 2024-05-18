@@ -27,6 +27,23 @@ async function getAllVotesOfCandidates() {
     }
 }
 
+async function generateVotingOptions() {
+    try {
+        const response = await fetch('/api/getAllVotesOfCandidates');
+        const candidates = await response.json();
+        const candidatesList = document.getElementById('vote');
+        candidatesList.innerHTML = '';
+        candidates.votes.forEach((candidate, index) => {
+            const candidateElement = document.createElement('option');
+            candidateElement.value = index;
+            candidateElement.innerText = candidate.name;
+            candidatesList.appendChild(candidateElement);
+        });
+    } catch (error) {
+        console.error('Error fetching candidates:', error);
+    }
+}
+
 async function addCandidate() {
     const name = document.getElementById('candidateName').value;
     try {
@@ -46,7 +63,8 @@ async function addCandidate() {
 }
 
 async function vote() {
-    const index = document.getElementById('candidateIndex').value;
+    const index = document.getElementById('vote').value;
+    console.log(index);
     try {
         const response = await fetch('/api/vote', {
             method: 'POST',

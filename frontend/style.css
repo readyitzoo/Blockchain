@@ -1,35 +1,73 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4; /* Lighter shade for a fresher look */
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* max-width: 800px; */
+    margin: 32px 128px; /* Increased margin for better centering */
+    padding: 64px; /* Increased padding for more space inside */
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05); /* Softer shadow */
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-h1, h2 {
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    * {
+        flex: 50%;
+    }
+}
+
+h1 {
     text-align: center;
+    color: #333333; /* Darker color for better readability */
 }
 
-section {
-    margin-bottom: 20px;
+h2 {
+    margin: 0;
+    text-align: left;
+    /* margin-top: 30px; Added top margin to space out sections */
+    margin-left: 32px;
+    color: #333333; /* Darker color for better readability */
 }
 
 button {
     display: block;
-    margin: 10px 0;
+    /* margin: 25px; Increased spacing around buttons */
+    padding: 16px 32px; /* More padding for a better click area */
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    background-color: #007BFF; /* Bootstrap blue for visibility */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded borders for modern look */
 }
 
-input[type="text"], input[type="number"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 10px;
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover for interactivity */
+}
+
+input[type="text"], input[type="number"], select {
+    /* width: 70%; */
+    padding-left: 16px;
+    /* margin-left: 15px; Increased bottom margin */
+    border: 1px solid #ccc; /* Subtle border for inputs */
+    border-radius: 4px; /* Rounded borders for inputs */
 }
 
 ul {
