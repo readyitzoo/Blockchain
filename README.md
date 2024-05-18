@@ -1,4 +1,4 @@
-Voting System
+## Voting System
 
 This Voting System is a blockchain-based application designed to ensure secure and transparent voting mechanisms. It utilizes Hardhat, an Ethereum development environment for compiling, deploying, testing, and interacting with smart contracts.
 
