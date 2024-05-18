@@ -7,7 +7,7 @@ body {
 
 .container {
     /* max-width: 800px; */
-    margin: 32px 128px; /* Increased margin for better centering */
+    margin: 64px 20%; /* Increased margin for better centering */
     padding: 64px; /* Increased padding for more space inside */
     background-color: white;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05); /* Softer shadow */
@@ -64,7 +64,7 @@ button:hover {
 
 input[type="text"], input[type="number"], select {
     /* width: 70%; */
-    padding-left: 16px;
+    padding: 8px 16px;
     /* margin-left: 15px; Increased bottom margin */
     border: 1px solid #ccc; /* Subtle border for inputs */
     border-radius: 4px; /* Rounded borders for inputs */
